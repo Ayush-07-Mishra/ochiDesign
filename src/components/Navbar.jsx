@@ -13,7 +13,7 @@ function Navbar() {
 								</svg>
         </div>
         <div className='links flex gap-10'>
-            {["Service","Our work","About us","Insights","Contact us"].map((item,index)=>(
+            {["Services","Our work","About us","Insights","Contact us"].map((item,index)=>(
                 <a key={index} className={`text-lg capatalize font-light ${index ===4 && "ml-56"}`}>{item}</a>
             ))}
         </div>
